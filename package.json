@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "fmt": "prettier src/*.js --write"
+  },
   "dependencies": {
-    "@babel/core": "^7.4.0"
+    "@babel/core": "^7.4.0",
+    "babylon": "^6.18.0"
   }
 }
